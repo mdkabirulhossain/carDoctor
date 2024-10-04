@@ -11,7 +11,7 @@ app.use(express.json())
 //for vercel
 
 app.use(cors({
-  origin: [""],
+  origin: ["https://car-doctor-ldd7-frontend.vercel.app"],
   methods:["POST", "GET"],
   Credential:true
 
